@@ -169,6 +169,10 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    background-image: url(media/ania-archer-HKElze1ixZY-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 .ftr_links_img>div{
     width: fit-content; 
