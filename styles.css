@@ -43,7 +43,6 @@
     background-image: url(media/landingBackground.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-
     width: 100%;
     min-height:640px ;
     background-color: #cccccc;
@@ -209,4 +208,43 @@
 }
 .ftr_links_img>div>a>img:hover{
     transform: scale(1.1);
+}
+.amEducation{
+    display: flex;
+    padding: 5%;
+    justify-content:center;
+    transition: transform .2s;
+    font-size: 26px;
+}
+.amEducation:hover{
+    transition-duration: 0.4s; 
+    transform:scale(1.1) ;
+}
+.amEdutxt{
+    padding-left: 1%;
+    display: flex;
+    align-items: baseline;
+}
+.educationIcon{
+    height: 80px;
+    width: 80px;
+}
+.amEdutxt:hover{
+    transition-duration: 0.4s; 
+    color: aqua;
+}
+.amProjs{
+    justify-content:center;
+    display: flex;
+    align-items:top;
+    font-size: 26px;
+    transition: transform .2s;
+}
+.amProjs:hover{
+    transition-duration: 0.4s; 
+    transform:scale(1.1) ;
+}
+.amPjSpan1{
+    padding-left: 2%;
+    font-size: 20px;
 }
