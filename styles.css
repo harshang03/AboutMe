@@ -217,6 +217,7 @@
     font-size: 26px;
 }
 .amEducation:hover{
+    background-color: #003545;
     transition-duration: 0.4s; 
     transform:scale(1.1) ;
 }
@@ -233,18 +234,58 @@
     transition-duration: 0.4s; 
     color: aqua;
 }
-.amProjs{
+.amProjsTxt{
+    height: 150px;
+    padding: 5%;
     justify-content:center;
     display: flex;
     align-items:top;
     font-size: 26px;
     transition: transform .2s;
 }
-.amProjs:hover{
+.amProjsTxt:hover{
+    background-color: #202040;
     transition-duration: 0.4s; 
     transform:scale(1.1) ;
 }
 .amPjSpan1{
     padding-left: 2%;
     font-size: 20px;
+}
+.amSkillsTxt{
+    height: 100px;
+    display: flex;
+    padding: 5%;
+    justify-content:center;
+    transition: transform .2s;
+    font-size: 26px;
+}
+.amSkillsTxt:hover{
+    background-color: #1d3e53;
+    transition-duration: 0.4s; 
+    transform:scale(1.1) ;
+}
+.amHATxt{
+    display: flex;
+    padding: 5%;
+    justify-content:center;
+    transition: transform .2s;
+    font-size: 26px;
+}
+.amHATxt:hover{
+    background-color: #363b4e;
+    transition-duration: 0.4s; 
+    transform:scale(1.1) ;
+}
+.amLanTxt{
+    display: flex;
+    padding: 5%;
+    justify-content:center;
+    transition: transform .2s;
+    font-size: 26px;
+}
+.amLanTxt:hover{
+    background-color: #2b1f31;
+    transition-duration: 0.4s; 
+    transform:scale(1.1) ;
 }
